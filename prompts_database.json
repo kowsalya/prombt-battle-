@@ -1,0 +1,1003 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "title": "50 AI Prompt Templates for Crypto & Business",
+    "description": "Professional prompt templates using RTCFR framework",
+    "total_prompts": 50,
+    "created_date": "2026-04-19",
+    "framework": "RTCFR",
+    "license": "MIT",
+    "repository": "https://github.com/yourusername/50-ai-prompts"
+  },
+  "framework_guide": {
+    "role": "The persona or expertise the AI should adopt",
+    "task": "The specific action or deliverable requested",
+    "context": "Background information, audience, goals, tone, format, restrictions",
+    "few_shot_examples": "Demonstration of expected input/output quality",
+    "report": "Detailed structure of expected output"
+  },
+  "prompts": [
+    {
+      "id": 1,
+      "title": "Beldex Beginner Education",
+      "category": "Education",
+      "difficulty": "Beginner",
+      "estimated_time": "15 minutes",
+      "role": "AI educator specializing in explaining crypto concepts to beginners",
+      "task": "Explain what Beldex is in a simple and easy-to-understand way",
+      "context": {
+        "audience": "Beginners with no technical background",
+        "goal": "Education only (no financial advice)",
+        "tone": "Simple, friendly, encouraging",
+        "format": "5 bullet points with one real-life analogy"
+      },
+      "few_shot_example": "Blockchain is like a digital notebook where all transactions are recorded.",
+      "report": "Create a 5-point explanation with one real-life analogy. Use simple language that a 10th-grade student can understand.",
+      "keywords": ["education", "beginner", "explanation", "crypto", "beldex"]
+    },
+    {
+      "id": 2,
+      "title": "Telegram Engagement Posts",
+      "category": "Marketing",
+      "difficulty": "Beginner",
+      "estimated_time": "20 minutes",
+      "role": "Crypto content creator for a Beldex community",
+      "task": "Generate 5 engaging Telegram posts to educate and engage beginners",
+      "context": {
+        "audience": "Beginner crypto enthusiasts",
+        "goal": "Educate and build community engagement",
+        "tone": "Friendly, simple, slightly energetic",
+        "platform": "Telegram"
+      },
+      "few_shot_example": "Privacy matters 🔐 Here's why protecting your data is important…",
+      "report": "Create 5 unique posts with emojis, clear call-to-action, simple language suitable for beginners",
+      "keywords": ["social media", "marketing", "engagement", "telegram", "posts"]
+    },
+    {
+      "id": 3,
+      "title": "FAQ Generation for Beldex",
+      "category": "Support",
+      "difficulty": "Beginner",
+      "estimated_time": "30 minutes",
+      "role": "AI support assistant for a crypto community",
+      "task": "Generate 10 frequently asked questions about Beldex with answers",
+      "context": {
+        "audience": "New users and community members",
+        "goal": "Reduce repeated queries and improve support",
+        "tone": "Clear, helpful, non-technical",
+        "purpose": "Chatbot training and documentation"
+      },
+      "few_shot_example": "Q: What is Beldex? A: A privacy-focused blockchain ecosystem designed to protect user data.",
+      "report": "Create 10 Q&A pairs covering fundamental questions, features, security, legality, and usage",
+      "keywords": ["faq", "support", "chatbot", "documentation", "help"]
+    },
+    {
+      "id": 4,
+      "title": "Comparative Analysis Table",
+      "category": "Education",
+      "difficulty": "Intermediate",
+      "estimated_time": "25 minutes",
+      "role": "Crypto research assistant",
+      "task": "Create a detailed comparison table of Beldex vs Bitcoin vs Ethereum",
+      "context": {
+        "audience": "Beginners wanting to understand differences",
+        "goal": "Educational comparison (no price predictions)",
+        "tone": "Objective and factual",
+        "format": "Clear comparison table"
+      },
+      "few_shot_example": "Bitcoin = Store of value, Ethereum = Platform for apps, Beldex = Privacy communication",
+      "report": "Create comparison table with rows for privacy, use case, technology, speed, ease of use, regulatory status",
+      "keywords": ["comparison", "analysis", "table", "bitcoin", "ethereum"]
+    },
+    {
+      "id": 5,
+      "title": "Business Proposal for AI Integration",
+      "category": "Business",
+      "difficulty": "Intermediate",
+      "estimated_time": "45 minutes",
+      "role": "AI business consultant",
+      "task": "Create a complete business proposal for implementing AI in a Beldex community",
+      "context": {
+        "client": "Crypto group administrators",
+        "goal": "Improve engagement and automate repetitive tasks",
+        "budget": "Standard startup range",
+        "scope": "Community management automation"
+      },
+      "few_shot_example": "AI can automate repetitive tasks and improve community engagement by 40%",
+      "report": "Include problem identification, proposed solution, timeline, outcomes, pricing, ROI, risk mitigation",
+      "keywords": ["business", "proposal", "ai", "automation", "strategy"]
+    },
+    {
+      "id": 6,
+      "title": "Whitepaper Summary",
+      "category": "Education",
+      "difficulty": "Intermediate",
+      "estimated_time": "30 minutes",
+      "role": "AI educator specializing in blockchain",
+      "task": "Summarize the Beldex whitepaper for beginners",
+      "context": {
+        "audience": "Non-technical learners",
+        "goal": "Make technical document accessible",
+        "tone": "Simple and clear",
+        "length": "5 key points maximum"
+      },
+      "few_shot_example": "Blockchain = shared digital record that can't be altered",
+      "report": "Extract and explain vision, technology, features, differentiators, roadmap",
+      "keywords": ["whitepaper", "summary", "documentation", "blockchain", "technical"]
+    },
+    {
+      "id": 7,
+      "title": "Simplification Rewrite",
+      "category": "Education",
+      "difficulty": "Beginner",
+      "estimated_time": "20 minutes",
+      "role": "AI content simplifier",
+      "task": "Rewrite complex Beldex explanation in very simple terms",
+      "context": {
+        "audience": "Non-technical general audience",
+        "goal": "Make crypto accessible to everyone",
+        "tone": "Conversational and friendly",
+        "format": "Single paragraph (max 150 words)"
+      },
+      "few_shot_example": "Crypto = digital money that doesn't need a bank",
+      "report": "Rewrite to be understandable by 12-year-old, free of jargon, relatable with everyday examples",
+      "keywords": ["simplification", "rewrite", "accessibility", "general audience"]
+    },
+    {
+      "id": 8,
+      "title": "Crypto Glossary Terms",
+      "category": "Education",
+      "difficulty": "Beginner",
+      "estimated_time": "25 minutes",
+      "role": "AI educator creating learning materials",
+      "task": "Define 15 essential crypto terms with Beldex context",
+      "context": {
+        "audience": "Beginner learners",
+        "goal": "Build foundational vocabulary",
+        "format": "Short definitions (1-2 sentences each)",
+        "tone": "Educational and clear"
+      },
+      "few_shot_example": "Blockchain = A digital ledger that records all transactions permanently",
+      "report": "Create definitions for privacy coin, cryptocurrency, wallet, transaction, hash, mining, etc.",
+      "keywords": ["glossary", "definitions", "vocabulary", "learning", "reference"]
+    },
+    {
+      "id": 9,
+      "title": "Beldex vs Bitcoin Analysis",
+      "category": "Education",
+      "difficulty": "Intermediate",
+      "estimated_time": "30 minutes",
+      "role": "Crypto analysis educator",
+      "task": "Create detailed comparison of Beldex and Bitcoin",
+      "context": {
+        "audience": "Education-focused learners",
+        "goal": "Highlight key differences",
+        "tone": "Objective and factual",
+        "format": "Bullet-point comparison"
+      },
+      "few_shot_example": "Bitcoin = Store of value, Beldex = Privacy-focused communication",
+      "report": "Compare across design philosophy, purpose, privacy, speed, scalability, community, regulation",
+      "keywords": ["comparison", "bitcoin", "beldex", "analysis", "differences"]
+    },
+    {
+      "id": 10,
+      "title": "Student-Friendly Explanation",
+      "category": "Education",
+      "difficulty": "Beginner",
+      "estimated_time": "20 minutes",
+      "role": "School teacher and crypto educator",
+      "task": "Explain Beldex to school students (age 14-18)",
+      "context": {
+        "audience": "High school students",
+        "goal": "Generate interest in crypto/blockchain",
+        "tone": "Very simple, relatable, story-based",
+        "format": "Short narrative or analogy"
+      },
+      "few_shot_example": "Internet = Global network connecting millions of computers",
+      "report": "Create school-related analogy, 150-word narrative, explain privacy importance, include call-to-action",
+      "keywords": ["education", "students", "school", "explanation", "narrative"]
+    },
+    {
+      "id": 11,
+      "title": "YouTube Educational Script",
+      "category": "Content",
+      "difficulty": "Intermediate",
+      "estimated_time": "40 minutes",
+      "role": "YouTube content creator and educator",
+      "task": "Write a YouTube video script explaining Beldex",
+      "context": {
+        "platform": "YouTube (5-8 minute video)",
+        "audience": "Crypto beginners on YouTube",
+        "tone": "Engaging, energetic, conversational",
+        "format": "Video script with timing"
+      },
+      "few_shot_example": "Let's break this down into three simple parts...",
+      "report": "Structure hook, introduction, main explanation, why it matters, call-to-action with timing",
+      "keywords": ["video", "youtube", "script", "content", "education"]
+    },
+    {
+      "id": 12,
+      "title": "Professional Blog Article",
+      "category": "Content",
+      "difficulty": "Advanced",
+      "estimated_time": "60 minutes",
+      "role": "Crypto journalist and writer",
+      "task": "Write a professional blog article on Beldex",
+      "context": {
+        "audience": "Professional/business audience",
+        "goal": "Establish thought leadership",
+        "tone": "Formal but accessible",
+        "length": "800-1000 words"
+      },
+      "few_shot_example": "Beldex is emerging as a privacy-first blockchain solution...",
+      "report": "Create SEO-friendly headline, intro, 3-4 sections, features, advantages, use cases, conclusion",
+      "keywords": ["blog", "article", "professional", "content", "thought leadership"]
+    },
+    {
+      "id": 13,
+      "title": "Tamil-English Mixed Explanation",
+      "category": "Localization",
+      "difficulty": "Intermediate",
+      "estimated_time": "20 minutes",
+      "role": "Local crypto educator for Tamil-speaking audience",
+      "task": "Explain Beldex in Tamil-influenced English",
+      "context": {
+        "audience": "Tamil-speaking learners",
+        "goal": "Make crypto accessible locally",
+        "tone": "Conversational and relatable to local context",
+        "format": "Paragraph explanation with local examples"
+      },
+      "few_shot_example": "Just like saving money in a bank safely, Beldex keeps your digital data safe",
+      "report": "Use Tamil cultural references, local financial concepts, real-world examples, address local concerns",
+      "keywords": ["localization", "tamil", "language", "local", "cultural"]
+    },
+    {
+      "id": 14,
+      "title": "Privacy Coins Importance",
+      "category": "Analysis",
+      "difficulty": "Intermediate",
+      "estimated_time": "20 minutes",
+      "role": "Crypto industry analyst",
+      "task": "Explain the importance of privacy coins in the crypto ecosystem",
+      "context": {
+        "audience": "Crypto industry professionals",
+        "goal": "Awareness and education",
+        "tone": "Analytical and professional",
+        "format": "Bullet-point analysis"
+      },
+      "few_shot_example": "Privacy coins address fundamental concerns about financial surveillance",
+      "report": "Explain why privacy matters, surveillance concerns, pressures, use cases, market potential, challenges",
+      "keywords": ["privacy", "coins", "analysis", "importance", "ecosystem"]
+    },
+    {
+      "id": 15,
+      "title": "Advertising Copy",
+      "category": "Marketing",
+      "difficulty": "Beginner",
+      "estimated_time": "15 minutes",
+      "role": "Marketing specialist for Beldex",
+      "task": "Create advertisement copy for privacy coin campaign",
+      "context": {
+        "purpose": "Awareness campaign",
+        "audience": "General public",
+        "goal": "Drive attention and curiosity",
+        "format": "Short, punchy ad copy"
+      },
+      "few_shot_example": "Protect your privacy with Beldex 🔐",
+      "report": "Create 5 ad variations (privacy, security, freedom, community, innovation focus) with 25-50 word copy",
+      "keywords": ["advertising", "copy", "marketing", "campaign", "promotion"]
+    },
+    {
+      "id": 16,
+      "title": "Ecosystem Description",
+      "category": "Education",
+      "difficulty": "Intermediate",
+      "estimated_time": "25 minutes",
+      "role": "Technical writer and copywriter",
+      "task": "Describe the complete Beldex ecosystem",
+      "context": {
+        "audience": "Beginner and intermediate users",
+        "goal": "Explain all components",
+        "tone": "Informative but accessible",
+        "format": "Flowing paragraphs"
+      },
+      "few_shot_example": "Beldex offers a comprehensive suite of privacy-focused tools",
+      "report": "Describe token, BChat, BelNet, blockchain, integration, roadmap, community",
+      "keywords": ["ecosystem", "description", "components", "features", "architecture"]
+    },
+    {
+      "id": 17,
+      "title": "Beginner Learning Story",
+      "category": "Content",
+      "difficulty": "Beginner",
+      "estimated_time": "30 minutes",
+      "role": "Storyteller and content creator",
+      "task": "Write a story about learning crypto safely",
+      "context": {
+        "audience": "Beginners (motivation story)",
+        "goal": "Engagement and relatability",
+        "tone": "Inspiring and instructive",
+        "format": "Short story (500 words)"
+      },
+      "few_shot_example": "Ravi wanted to learn about cryptocurrency but didn't know where to start...",
+      "report": "Create relatable protagonist, confusion, Beldex discovery, learning journey, success, call-to-action",
+      "keywords": ["story", "narrative", "learning", "engagement", "motivation"]
+    },
+    {
+      "id": 18,
+      "title": "Digital Privacy Poem",
+      "category": "Content",
+      "difficulty": "Beginner",
+      "estimated_time": "15 minutes",
+      "role": "Creative writer for awareness campaigns",
+      "task": "Write a poem on digital privacy importance",
+      "context": {
+        "purpose": "Awareness and engagement",
+        "audience": "General audience",
+        "tone": "Thoughtful and inspiring",
+        "format": "4-6 line poem or verse"
+      },
+      "few_shot_example": "In a world of open data flows...",
+      "report": "Create poem addressing concerns poetically, mention challenges, end with hope/solution",
+      "keywords": ["poetry", "creative", "awareness", "privacy", "digital"]
+    },
+    {
+      "id": 19,
+      "title": "Conversation Script (2 Beginners)",
+      "category": "Content",
+      "difficulty": "Intermediate",
+      "estimated_time": "25 minutes",
+      "role": "Training script writer",
+      "task": "Create realistic conversation between two crypto beginners",
+      "context": {
+        "audience": "Training and engagement",
+        "goal": "Show natural Q&A flow",
+        "tone": "Natural and relatable",
+        "format": "Dialogue format"
+      },
+      "few_shot_example": "A: What is Beldex? B: It's a cryptocurrency that protects your privacy online.",
+      "report": "Create 10-15 exchanges, realistic questions, clear answers, building complexity, realistic objections",
+      "keywords": ["dialogue", "conversation", "script", "training", "engagement"]
+    },
+    {
+      "id": 20,
+      "title": "Workshop Invitation Email",
+      "category": "Marketing",
+      "difficulty": "Beginner",
+      "estimated_time": "15 minutes",
+      "role": "Business communicator and email marketer",
+      "task": "Write an email invitation to crypto/AI workshop",
+      "context": {
+        "audience": "Crypto beginners",
+        "goal": "Drive workshop registration",
+        "tone": "Professional but friendly",
+        "format": "Email with clear structure"
+      },
+      "few_shot_example": "Join our exclusive AI + Crypto workshop for beginners...",
+      "report": "Include subject line, greeting, value prop, topics, date/time, registration, FAQ, signature",
+      "keywords": ["email", "marketing", "workshop", "invitation", "communication"]
+    },
+    {
+      "id": 21,
+      "title": "Privacy Coins Debate",
+      "category": "Education",
+      "difficulty": "Advanced",
+      "estimated_time": "30 minutes",
+      "role": "Debate coach and argument structurer",
+      "task": "List pros and cons of privacy coins",
+      "context": {
+        "purpose": "Training discussion and critical thinking",
+        "audience": "Advanced learners",
+        "goal": "Show balanced perspective",
+        "format": "Two-sided argument"
+      },
+      "few_shot_example": "Pros: Enhanced user privacy, Cons: Regulatory challenges",
+      "report": "Create 5 pros, 5 cons each with details, counterarguments, regulatory view, examples, conclusion",
+      "keywords": ["debate", "pros", "cons", "argumentation", "critical thinking"]
+    },
+    {
+      "id": 22,
+      "title": "Thought Leadership Opinion",
+      "category": "Content",
+      "difficulty": "Advanced",
+      "estimated_time": "25 minutes",
+      "role": "Thought leader in crypto/privacy space",
+      "task": "Write opinion piece on privacy importance",
+      "context": {
+        "platform": "LinkedIn and professional blogs",
+        "audience": "Business and crypto leaders",
+        "tone": "Authoritative and insightful",
+        "length": "300-400 words"
+      },
+      "few_shot_example": "Privacy is becoming a fundamental right in the digital age...",
+      "report": "Cover current landscape, why it matters, business implications, individual rights, solutions, CTA",
+      "keywords": ["opinion", "leadership", "thought leadership", "professional", "insight"]
+    },
+    {
+      "id": 23,
+      "title": "Crypto-Travel Analogy",
+      "category": "Education",
+      "difficulty": "Beginner",
+      "estimated_time": "20 minutes",
+      "role": "Explainer using analogies",
+      "task": "Explain cryptocurrencies using travel analogy",
+      "context": {
+        "audience": "Complete beginners",
+        "goal": "Simplified understanding through analogy",
+        "tone": "Friendly and relatable",
+        "format": "Extended analogy explanation"
+      },
+      "few_shot_example": "Cryptocurrency is like traveling with a passport that works everywhere...",
+      "report": "Develop analogy explaining crypto, blockchain, wallet, transactions, privacy coins, limitations",
+      "keywords": ["analogy", "explanation", "travel", "metaphor", "simplification"]
+    },
+    {
+      "id": 24,
+      "title": "User Query Classification",
+      "category": "Support",
+      "difficulty": "Beginner",
+      "estimated_time": "20 minutes",
+      "role": "AI classifier for support systems",
+      "task": "Categorize support queries by complexity level",
+      "context": {
+        "purpose": "Chatbot routing and response selection",
+        "audience": "Support team trainers",
+        "goal": "Efficient query handling",
+        "format": "Classification system with examples"
+      },
+      "few_shot_example": "Beginner: What is blockchain? Intermediate: How do I secure my wallet?",
+      "report": "Create beginner (20), intermediate (15), advanced (10) example queries with routing instructions",
+      "keywords": ["classification", "support", "chatbot", "routing", "system"]
+    },
+    {
+      "id": 25,
+      "title": "Content Translation Guide",
+      "category": "Localization",
+      "difficulty": "Intermediate",
+      "estimated_time": "30 minutes",
+      "role": "Translator and localization specialist",
+      "task": "Translate crypto content between English and Tamil",
+      "context": {
+        "purpose": "Local audience support",
+        "audience": "Tamil-speaking users",
+        "goal": "Accurate, culturally appropriate translation",
+        "format": "Parallel text with explanations"
+      },
+      "few_shot_example": "English: Blockchain is a distributed ledger, Tamil: ப்ளாக்செயின் விநியோகிக்கப்பட்ட கணக்குப்புத்தகம்",
+      "report": "Translate 20 key terms, 10 questions, 5 safety messages, include cultural considerations",
+      "keywords": ["translation", "localization", "tamil", "multilingual", "cultural"]
+    },
+    {
+      "id": 26,
+      "title": "FAQ Response",
+      "category": "Support",
+      "difficulty": "Beginner",
+      "estimated_time": "20 minutes",
+      "role": "Support assistant for FAQ responses",
+      "task": "Answer 10 most common user questions",
+      "context": {
+        "audience": "New users and community",
+        "goal": "Provide clear, concise answers",
+        "tone": "Helpful and patient",
+        "format": "Q&A pairs with short answers"
+      },
+      "few_shot_example": "Q: Is Beldex safe? A: Yes, Beldex uses military-grade encryption.",
+      "report": "Answer 10 key questions about what, how, where, legal, features, speed, mining, integration",
+      "keywords": ["faq", "response", "support", "answers", "help"]
+    },
+    {
+      "id": 27,
+      "title": "Confusion Resolution",
+      "category": "Support",
+      "difficulty": "Beginner",
+      "estimated_time": "25 minutes",
+      "role": "Support agent specializing in confusion management",
+      "task": "Handle common user confusions and misconceptions",
+      "context": {
+        "purpose": "User retention and satisfaction",
+        "audience": "Confused or frustrated users",
+        "goal": "Clear up misunderstandings",
+        "tone": "Empathetic and reassuring"
+      },
+      "few_shot_example": "Misconception: Crypto is only for illegal activities, Correction: It has many legitimate uses",
+      "report": "Address 10 common misconceptions with clear corrections and explanations",
+      "keywords": ["support", "confusion", "clarification", "misconception", "education"]
+    },
+    {
+      "id": 28,
+      "title": "Chatbot FAQ Handler",
+      "category": "Support",
+      "difficulty": "Beginner",
+      "estimated_time": "20 minutes",
+      "role": "AI chatbot for automated responses",
+      "task": "Generate clear answers for chatbot automation",
+      "context": {
+        "purpose": "24/7 automated support",
+        "audience": "Self-service users",
+        "goal": "Reduce human support load",
+        "format": "Structured responses with options"
+      },
+      "few_shot_example": "User: How do I reset password? Bot: I can help! Choose option 1 or 2.",
+      "report": "Create responses for login (5), wallet (5), transactions (5), features (5), security (5)",
+      "keywords": ["chatbot", "automation", "support", "faq", "responses"]
+    },
+    {
+      "id": 29,
+      "title": "Tutor Explanation of Doubts",
+      "category": "Education",
+      "difficulty": "Intermediate",
+      "estimated_time": "20 minutes",
+      "role": "Patient tutor for blockchain concepts",
+      "task": "Explain doubts using step-by-step approach",
+      "context": {
+        "audience": "Individual learners with confusion",
+        "goal": "Clear comprehensive explanation",
+        "tone": "Patient and encouraging",
+        "format": "Step-by-step breakdown"
+      },
+      "few_shot_example": "Student: I don't understand blockchain. Tutor: Let me break it into 5 simple steps...",
+      "report": "Create step-by-step explanations for 5 concepts with 5-7 clear steps each",
+      "keywords": ["tutoring", "explanation", "learning", "steps", "clarity"]
+    },
+    {
+      "id": 30,
+      "title": "Workshop Quiz Creation",
+      "category": "Education",
+      "difficulty": "Intermediate",
+      "estimated_time": "30 minutes",
+      "role": "Trainer and assessment designer",
+      "task": "Create quiz questions for crypto workshops",
+      "context": {
+        "purpose": "Knowledge assessment",
+        "audience": "Workshop participants",
+        "goal": "Measure learning outcomes",
+        "format": "Multiple choice and short answer"
+      },
+      "few_shot_example": "Q: What does BDX stand for? A) Blockchain Digital Exchange B) Digital Currency",
+      "report": "Create 20 questions: 10 MC (easy/medium/hard), 5 short answer, 5 scenario with answer key",
+      "keywords": ["quiz", "assessment", "workshop", "evaluation", "learning"]
+    },
+    {
+      "id": 31,
+      "title": "Lesson Plan Structure",
+      "category": "Education",
+      "difficulty": "Advanced",
+      "estimated_time": "60 minutes",
+      "role": "Course instructor and lesson designer",
+      "task": "Create detailed lesson plan for crypto training",
+      "context": {
+        "purpose": "Structured training delivery",
+        "audience": "Classroom or online students",
+        "goal": "Systematic learning progression",
+        "format": "Complete lesson plan"
+      },
+      "few_shot_example": "Lesson 1: Blockchain Basics, Objective: Understand distributed ledgers",
+      "report": "Create 5-lesson plan with objectives, duration, materials, activities, assessment, homework",
+      "keywords": ["lesson plan", "curriculum", "training", "education", "structure"]
+    },
+    {
+      "id": 32,
+      "title": "Structured Answer Format",
+      "category": "Support",
+      "difficulty": "Beginner",
+      "estimated_time": "20 minutes",
+      "role": "AI assistant for clarity and structure",
+      "task": "Provide answers in bullet-point structured format",
+      "context": {
+        "purpose": "Chatbot clarity improvement",
+        "audience": "Users seeking clear information",
+        "goal": "Maximum readability",
+        "format": "Bullet points with hierarchy"
+      },
+      "few_shot_example": "Q: What makes Beldex secure? A: - Encryption: AES-256 - Network: Decentralized",
+      "report": "Create structured answers for 10 technical, 10 use-case, 10 safety questions",
+      "keywords": ["structure", "clarity", "formatting", "readability", "support"]
+    },
+    {
+      "id": 33,
+      "title": "Process Explanation",
+      "category": "Education",
+      "difficulty": "Intermediate",
+      "estimated_time": "25 minutes",
+      "role": "Process analyst and explainer",
+      "task": "Explain blockchain processes step-by-step",
+      "context": {
+        "audience": "Visual and step-based learners",
+        "goal": "Complete understanding of processes",
+        "tone": "Clear and logical",
+        "format": "Numbered steps with explanations"
+      },
+      "few_shot_example": "Process: How transaction is completed, Step 1: User initiates...",
+      "report": "Explain 5 processes with 6-8 steps each: transaction validation, block creation, wallet, etc.",
+      "keywords": ["process", "steps", "explanation", "procedure", "logic"]
+    },
+    {
+      "id": 34,
+      "title": "Transaction Logic Explanation",
+      "category": "Education",
+      "difficulty": "Intermediate",
+      "estimated_time": "20 minutes",
+      "role": "Technical educator and logic explainer",
+      "task": "Explain transaction logic in simple terms",
+      "context": {
+        "audience": "Beginners wanting mechanics understanding",
+        "goal": "Grasp transaction flow",
+        "tone": "Simple but accurate",
+        "format": "Logical flow diagram in text"
+      },
+      "few_shot_example": "When you send crypto: first your wallet creates a digital signature...",
+      "report": "Explain initiation, signature, broadcasting, validation, block inclusion, confirmation",
+      "keywords": ["transaction", "logic", "blockchain", "mechanics", "flow"]
+    },
+    {
+      "id": 35,
+      "title": "Security Scenario Creation",
+      "category": "Training",
+      "difficulty": "Intermediate",
+      "estimated_time": "30 minutes",
+      "role": "Security awareness trainer",
+      "task": "Create security scenarios for training",
+      "context": {
+        "purpose": "Awareness and skill building",
+        "audience": "New crypto users",
+        "goal": "Prevent security breaches",
+        "format": "Realistic scenarios with solutions"
+      },
+      "few_shot_example": "Scenario: You receive message claiming to be support asking for private key... What do you do?",
+      "report": "Create 10 scenarios: phishing, fake app, compromise, scam, hack, social engineering, etc.",
+      "keywords": ["security", "training", "awareness", "scenario", "prevention"]
+    },
+    {
+      "id": 36,
+      "title": "Text Summarization",
+      "category": "Content",
+      "difficulty": "Beginner",
+      "estimated_time": "15 minutes",
+      "role": "Content formatter and summarizer",
+      "task": "Summarize complex text into bullet points",
+      "context": {
+        "purpose": "Content clarity",
+        "audience": "Busy professionals",
+        "goal": "Quick information extraction",
+        "format": "Bullet points (max 5)"
+      },
+      "few_shot_example": "Original: 'Blockchain operates on cryptography...' Summary: - Uses cryptography - Distributed nodes",
+      "report": "Summarize 10 texts into 5-point bullets, emphasize key takeaways, simplify terms",
+      "keywords": ["summarization", "concise", "clarity", "content", "extraction"]
+    },
+    {
+      "id": 37,
+      "title": "Adaptive Learning Explanation",
+      "category": "Education",
+      "difficulty": "Advanced",
+      "estimated_time": "30 minutes",
+      "role": "Adaptive learning AI",
+      "task": "Explain concepts at different complexity levels",
+      "context": {
+        "purpose": "Personalized learning",
+        "audience": "Diverse skill levels",
+        "goal": "Customized understanding",
+        "format": "Tiered explanations"
+      },
+      "few_shot_example": "Beginner: Blockchain = digital record book, Intermediate: distributed ledger, Advanced: Byzantine fault-tolerant",
+      "report": "Create 5 concepts at 3 levels each: beginner, intermediate, advanced explanations",
+      "keywords": ["adaptive", "personalization", "learning", "levels", "customization"]
+    },
+    {
+      "id": 38,
+      "title": "Crypto Trends Analysis",
+      "category": "Research",
+      "difficulty": "Intermediate",
+      "estimated_time": "30 minutes",
+      "role": "Research assistant and analyst",
+      "task": "Explain current crypto trends (non-predictive)",
+      "context": {
+        "purpose": "Insights and awareness",
+        "audience": "Learners and professionals",
+        "goal": "Understand market movements",
+        "restriction": "NO price predictions"
+      },
+      "few_shot_example": "Trend: Increasing adoption of privacy coins by institutions",
+      "report": "Analyze 10 trends: adoption, institutional interest, regulation, DeFi, environment, layer-2, etc.",
+      "keywords": ["trends", "analysis", "research", "market", "insights"]
+    },
+    {
+      "id": 39,
+      "title": "Multi-Topic Content Research",
+      "category": "Research",
+      "difficulty": "Advanced",
+      "estimated_time": "45 minutes",
+      "role": "Research assistant and topic analyzer",
+      "task": "Research and explain multiple related topics",
+      "context": {
+        "purpose": "Comprehensive content creation",
+        "audience": "Workshop and content creation",
+        "goal": "In-depth knowledge compilation",
+        "format": "Topic breakdown with sub-topics"
+      },
+      "few_shot_example": "Topic: Privacy in Blockchain, Sub: Zero-knowledge proofs, Ring signatures, Stealth addresses",
+      "report": "Research 5 topic clusters with 5-6 sub-topics each, detailed explanations",
+      "keywords": ["research", "comprehensive", "multi-topic", "deep dive", "analysis"]
+    },
+    {
+      "id": 40,
+      "title": "Job Posting Creation",
+      "category": "Business",
+      "difficulty": "Intermediate",
+      "estimated_time": "25 minutes",
+      "role": "HR specialist and job writer",
+      "task": "Create job posting for crypto team role",
+      "context": {
+        "purpose": "Team building and hiring",
+        "audience": "Potential candidates",
+        "goal": "Attract qualified applicants",
+        "format": "Professional job posting"
+      },
+      "few_shot_example": "Title: Blockchain Developer, Requirements: 3+ years crypto experience",
+      "report": "Create 5 job postings with responsibilities, requirements, qualifications, benefits, instructions",
+      "keywords": ["hr", "hiring", "job posting", "recruitment", "career"]
+    },
+    {
+      "id": 41,
+      "title": "Resume Building",
+      "category": "Career",
+      "difficulty": "Intermediate",
+      "estimated_time": "30 minutes",
+      "role": "Career coach and resume builder",
+      "task": "Build resume for crypto/blockchain career",
+      "context": {
+        "purpose": "Career advancement for learners",
+        "audience": "Career-switching professionals",
+        "goal": "Showcase blockchain knowledge",
+        "format": "Professional resume"
+      },
+      "few_shot_example": "Professional Summary: Blockchain enthusiast with 2+ years crypto experience",
+      "report": "Create 5 sample resumes with summary, skills, experience, education, certifications, projects",
+      "keywords": ["career", "resume", "professional", "development", "advancement"]
+    },
+    {
+      "id": 42,
+      "title": "Prompt Engineering Skills",
+      "category": "AI",
+      "difficulty": "Advanced",
+      "estimated_time": "25 minutes",
+      "role": "Prompt engineer and AI trainer",
+      "task": "Improve and optimize existing prompts",
+      "context": {
+        "purpose": "Skill demonstration",
+        "audience": "AI practitioners",
+        "goal": "Create better AI outputs",
+        "format": "Before/After prompt comparison"
+      },
+      "few_shot_example": "Before: 'Explain blockchain', After: 'As educator, explain blockchain to 12th graders with analogy'",
+      "report": "Improve 10 prompts by adding role, context, tone, format, constraints, examples",
+      "keywords": ["prompt engineering", "optimization", "ai", "skill", "improvement"]
+    },
+    {
+      "id": 43,
+      "title": "Quality Evaluation",
+      "category": "QA",
+      "difficulty": "Intermediate",
+      "estimated_time": "20 minutes",
+      "role": "AI output evaluator",
+      "task": "Score and evaluate prompt quality",
+      "context": {
+        "purpose": "Quality control",
+        "audience": "AI/ML teams",
+        "goal": "Maintain high output standards",
+        "format": "Evaluation rubric with scoring"
+      },
+      "few_shot_example": "Rubric: Clarity (1-5), Specificity (1-5), Actionability (1-5), Result Quality (1-5)",
+      "report": "Create rubric with criteria, scale, scoring guide, interpretation, suggestions, apply to 5 samples",
+      "keywords": ["evaluation", "quality", "rubric", "assessment", "standards"]
+    },
+    {
+      "id": 44,
+      "title": "Prompt Optimization",
+      "category": "AI",
+      "difficulty": "Advanced",
+      "estimated_time": "25 minutes",
+      "role": "Prompt optimizer and refiner",
+      "task": "Rewrite and optimize prompts for better results",
+      "context": {
+        "purpose": "Better AI outputs",
+        "audience": "Content creators and teams",
+        "goal": "Consistent quality improvement",
+        "format": "Optimized prompt with explanation"
+      },
+      "few_shot_example": "Original: 'Write about crypto', Optimized: 'Write 500-word beginner guide to Bitcoin/Ethereum with analogies'",
+      "report": "Optimize 10 prompts by clarifying intent, adding specificity, improving structure, enhancing examples",
+      "keywords": ["optimization", "refinement", "improvement", "prompt", "ai"]
+    },
+    {
+      "id": 45,
+      "title": "Advanced Reasoning Framework",
+      "category": "AI",
+      "difficulty": "Advanced",
+      "estimated_time": "30 minutes",
+      "role": "Advanced AI reasoning specialist",
+      "task": "Use Think-Act-Observe-Answer framework",
+      "context": {
+        "purpose": "Advanced automation",
+        "audience": "Complex problem solving",
+        "goal": "Superior reasoning outcomes",
+        "format": "Multi-step reasoning process"
+      },
+      "few_shot_example": "Think: What factors matter? Act: Research them. Observe: What patterns? Answer: Solution.",
+      "report": "Create 5 complex problems using TAOA: privacy coin design, security fix, strategy, tech evaluation",
+      "keywords": ["reasoning", "framework", "advanced", "problem-solving", "ai"]
+    },
+    {
+      "id": 46,
+      "title": "Multi-Solution Evaluation",
+      "category": "Strategy",
+      "difficulty": "Advanced",
+      "estimated_time": "40 minutes",
+      "role": "Strategic decision-maker",
+      "task": "Generate and evaluate multiple solutions",
+      "context": {
+        "purpose": "Better decision making",
+        "audience": "Leaders and strategists",
+        "goal": "Comprehensive solution evaluation",
+        "format": "Multiple solutions with pros/cons"
+      },
+      "few_shot_example": "Problem: Grow community 1K to 10K. Solution 1: Social media, Pros: Low cost, Cons: Competition",
+      "report": "Create 5 problems with 3 solutions each, detailed pros/cons, implementation, cost-benefit, recommendation",
+      "keywords": ["strategy", "decision making", "solutions", "evaluation", "analysis"]
+    },
+    {
+      "id": 47,
+      "title": "Learning Plan Creation",
+      "category": "Education",
+      "difficulty": "Advanced",
+      "estimated_time": "45 minutes",
+      "role": "Educational coach and planner",
+      "task": "Create personalized learning plans",
+      "context": {
+        "purpose": "Structured skill development",
+        "audience": "Career changers, learners",
+        "goal": "Systematic progression",
+        "format": "Complete 8-week learning plan"
+      },
+      "few_shot_example": "Week 1: Blockchain Fundamentals, Monday: Video, Wednesday: Hands-on, Friday: Discussion",
+      "report": "Create 5 learning plans (8-16 weeks) with weekly breakdown, daily activities, resources, milestones",
+      "keywords": ["learning plan", "curriculum", "education", "structured", "progression"]
+    },
+    {
+      "id": 48,
+      "title": "Master Prompt Combination",
+      "category": "AI",
+      "difficulty": "Advanced",
+      "estimated_time": "60 minutes",
+      "role": "Expert prompt engineer",
+      "task": "Combine all best practices into master prompts",
+      "context": {
+        "purpose": "Highest quality outputs",
+        "audience": "Professional teams",
+        "goal": "Reliable, consistent results",
+        "format": "Complete master prompt template"
+      },
+      "few_shot_example": "[ROLE] [TASK] [CONTEXT] [FEW-SHOT] [OUTPUT FORMAT] [SUCCESS CRITERIA]",
+      "report": "Create 5 master prompts: educator, analyst, writer, manager, consultant with all components",
+      "keywords": ["master prompt", "template", "best practices", "comprehensive", "professional"]
+    },
+    {
+      "id": 49,
+      "title": "Multi-Step Research Task",
+      "category": "Research",
+      "difficulty": "Advanced",
+      "estimated_time": "60 minutes",
+      "role": "Research assistant",
+      "task": "Execute comprehensive multi-step research",
+      "context": {
+        "purpose": "Deep topic understanding",
+        "audience": "Workshop and training use",
+        "goal": "Complete knowledge base",
+        "format": "Multi-step with dependencies"
+      },
+      "few_shot_example": "Step 1: Research privacy tech. Step 2: Analyze adoption. Step 3: Evaluate regulation.",
+      "report": "Create 5 research projects (6-7 steps) with dependencies, metrics, outputs, resources",
+      "keywords": ["research", "multi-step", "comprehensive", "deep dive", "analysis"]
+    },
+    {
+      "id": 50,
+      "title": "Idea to Execution Framework",
+      "category": "Strategy",
+      "difficulty": "Advanced",
+      "estimated_time": "60 minutes",
+      "role": "Business strategy consultant",
+      "task": "Convert business ideas to execution plans",
+      "context": {
+        "purpose": "Implementation strategy",
+        "audience": "Entrepreneurs and managers",
+        "goal": "Actionable roadmap",
+        "format": "Complete execution plan"
+      },
+      "few_shot_example": "Idea: Launch crypto platform. Planning: Market research, Platform selection, Content planning.",
+      "report": "Create 5 execution plans (3-16 months) with phases, milestones, budget, team, metrics",
+      "keywords": ["execution", "strategy", "implementation", "roadmap", "business"]
+    }
+  ],
+  "categories": {
+    "Education": {
+      "count": 18,
+      "prompts": [1, 4, 6, 7, 8, 9, 10, 14, 16, 21, 23, 29, 30, 31, 33, 34, 37, 47]
+    },
+    "Marketing": {
+      "count": 5,
+      "prompts": [2, 15, 20, 26, 28]
+    },
+    "Support": {
+      "count": 7,
+      "prompts": [3, 24, 25, 26, 27, 28, 32]
+    },
+    "Content": {
+      "count": 8,
+      "prompts": [11, 12, 17, 18, 19, 22, 36, 39]
+    },
+    "Business": {
+      "count": 6,
+      "prompts": [5, 40, 41, 42, 43, 44]
+    },
+    "Research": {
+      "count": 4,
+      "prompts": [38, 39, 49, 50]
+    },
+    "AI": {
+      "count": 6,
+      "prompts": [42, 43, 44, 45, 46, 48]
+    },
+    "Localization": {
+      "count": 2,
+      "prompts": [13, 25]
+    },
+    "Training": {
+      "count": 3,
+      "prompts": [30, 35, 47]
+    },
+    "Strategy": {
+      "count": 4,
+      "prompts": [46, 47, 50, 49]
+    },
+    "Analysis": {
+      "count": 3,
+      "prompts": [9, 14, 38]
+    },
+    "Career": {
+      "count": 1,
+      "prompts": [41]
+    },
+    "QA": {
+      "count": 1,
+      "prompts": [43]
+    }
+  },
+  "difficulty_levels": {
+    "Beginner": {
+      "count": 20,
+      "prompts": [1, 2, 7, 8, 10, 15, 18, 26, 27, 28, 36]
+    },
+    "Intermediate": {
+      "count": 22,
+      "prompts": [4, 5, 6, 9, 11, 13, 14, 16, 19, 21, 24, 25, 29, 30, 31, 33, 34, 35, 38, 40, 41, 43]
+    },
+    "Advanced": {
+      "count": 8,
+      "prompts": [12, 22, 37, 42, 44, 45, 46, 48, 49, 50]
+    }
+  },
+  "estimated_usage_time": {
+    "quick_15min": [1, 2, 7, 10, 15, 18, 20, 26, 28, 36],
+    "medium_20_30min": [3, 4, 8, 9, 13, 14, 16, 17, 19, 23, 24, 25, 27, 29, 30, 32, 33, 34, 35, 38, 40, 41, 42, 43, 44],
+    "long_45_60min": [5, 11, 12, 22, 31, 39, 45, 46, 47, 48, 49, 50]
+  },
+  "use_case_index": {
+    "educational_content": [1, 6, 7, 8, 10, 11, 12, 16, 21, 23, 29, 30, 31, 33, 34, 37],
+    "marketing_content": [2, 15, 17, 18, 19, 20, 22, 26],
+    "support_systems": [3, 24, 25, 26, 27, 28, 29, 32],
+    "business_strategy": [5, 40, 41, 42, 45, 46, 47, 48, 49, 50],
+    "personal_learning": [1, 6, 7, 8, 9, 10, 13, 22, 33, 37, 38, 39],
+    "team_training": [30, 31, 35, 47],
+    "localization": [13, 25]
+  }
+}
