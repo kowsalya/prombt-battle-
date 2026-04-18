@@ -1,0 +1,76 @@
+[
+  {
+    "scene_id": 1,
+    "duration": 4,
+    "video_prompt": "Wide cinematic shot of a saree boutique named 'Selvi Boutique' during festival season but empty. Uma, a 30-35 year old Indian woman, medium brown skin tone, oval face, sharp jawline, expressive eyes, long straight black hair worn loose over shoulders, wearing a plain sky blue saree with matching blouse, minimal jewelry, natural makeup, slim build, stands outside looking concerned and walks into the shop. Inside, Selvi, a 40-45 year old Indian woman, medium to slightly darker brown skin tone, round face, soft features, black hair neatly tied in a bun, wearing a dark green saree with subtle gold border and matching blouse, small bindi, minimal jewelry, average build, is arranging sarees. Photorealistic cinematic lighting.",
+    "dialogue": {
+      "voiceover": "திருவிழா நேரம்… ஆனா sale இல்லனா என்ன பயன்?"
+    }
+  },
+  {
+    "scene_id": 2,
+    "duration": 5,
+    "video_prompt": "Interior boutique shot. Selvi, a 40-45 year old Indian woman, medium to slightly darker brown skin tone, round face, soft features, black hair tied in a bun, wearing a dark green saree with gold border, small bindi, folding sarees with a tired expression. Uma, a 30-35 year old Indian woman, medium brown skin tone, oval face, expressive eyes, long straight black hair worn loose, wearing a plain sky blue saree, stands beside her observing. Camera slowly pans across empty shop. Warm cinematic lighting.",
+    "dialogue": {
+      "uma": "என்ன akka… திருவிழா நேரம்… ஆனா கூட்டமே இல்லையே? Sale எப்படி இருக்கு?",
+      "selvi": "சொல்லவே வேண்டாம் Uma… sale ரொம்ப கம்மி…"
+    }
+  },
+  {
+    "scene_id": 3,
+    "duration": 5,
+    "video_prompt": "Conversation shot inside boutique. Uma, a 30-35 year old Indian woman, medium brown skin tone, oval face, long straight black hair worn loose, wearing a sky blue saree, confidently explaining with hand gestures. Selvi, a 40-45 year old Indian woman, darker brown skin, round face, bun hairstyle, green saree with gold border, listening with confusion. Over-the-shoulder cinematic framing.",
+    "dialogue": {
+      "uma": "Akka… இப்போ offline மட்டும் போதாது. Online sellers கூட compete பண்ணணும்.",
+      "selvi": "அது எல்லாம் எனக்கு தெரியாதே… எப்படி?"
+    }
+  },
+  {
+    "scene_id": 4,
+    "duration": 6,
+    "video_prompt": "Creative AI visualization. Uma, a 30-35 year old Indian woman, medium brown skin tone, oval face, long black hair worn loose, wearing a sky blue saree, holding a saree and pointing to a digital screen. Screen shows AI-generated Indian model wearing same saree. Selvi, a 40-45 year old Indian woman, darker skin tone, round face, bun hairstyle, green saree with gold border, watching with curiosity. Futuristic UI glow, smooth transition.",
+    "dialogue": {
+      "uma": "ஒரு customer saree பார்த்தா… அவங்கள மாதிரி modelல காட்டினா எப்படி இருக்கும்?"
+    }
+  },
+  {
+    "scene_id": 5,
+    "duration": 4,
+    "video_prompt": "Close-up of Selvi, a 40-45 year old Indian woman, darker brown skin tone, round face, soft features, hair tied in a bun, wearing a green saree with gold border, showing worried expression, hand near chin. Uma, a 30-35 year old Indian woman in sky blue saree, slightly visible beside her. Cinematic close-up, shallow depth of field.",
+    "dialogue": {
+      "selvi": "அடடா! உடனே sale ஆகிடும்! ஆனா model shoot பண்ணணும்னா ரொம்ப செலவு ஆகுமே?"
+    }
+  },
+  {
+    "scene_id": 6,
+    "duration": 6,
+    "video_prompt": "Uma, a 30-35 year old Indian woman, medium brown skin, oval face, long straight black hair worn loose, wearing sky blue saree, smiling and pointing at laptop. Screen shows AI-generated saree model. Selvi, a 40-45 year old Indian woman, darker brown skin tone, round face, bun hairstyle, green saree, watching with impressed expression. Screen glow lighting.",
+    "dialogue": {
+      "uma": "அதான் difference akka… Model வேணாம்… studio வேணாம்… AIலே உங்க saree automaticா modelல போட்டு காட்டலாம்!"
+    }
+  },
+  {
+    "scene_id": 7,
+    "duration": 4,
+    "video_prompt": "Uma, a 30-35 year old Indian woman, medium brown skin, oval face, long black hair worn loose, wearing sky blue saree, explaining confidently with slight smile. Selvi, a 40-45 year old Indian woman, darker brown skin, round face, bun hairstyle, green saree, listening with hopeful expression. Warm cinematic tone.",
+    "dialogue": {
+      "uma": "Kows AI Labs-அ contact பண்ணுங்க… உங்க மாதிரி business owners காகவே solutions இருக்கு."
+    }
+  },
+  {
+    "scene_id": 8,
+    "duration": 4,
+    "video_prompt": "Selvi, a 40-45 year old Indian woman, darker brown skin tone, round face, bun hairstyle, wearing green saree, smiling and making a phone call. Uma, a 30-35 year old Indian woman, medium brown skin, oval face, long black hair, sky blue saree, smiling in background. Warm lighting, positive mood.",
+    "dialogue": {
+      "selvi": "Hello… Kows AI Labs ஆ? எனக்கு இந்த AI solution பற்றி தெரிஞ்சிக்கணும்…"
+    }
+  },
+  {
+    "scene_id": 9,
+    "duration": 5,
+    "video_prompt": "Wide shot of busy boutique. Selvi, a 40-45 year old Indian woman, darker brown skin, round face, bun hairstyle, green saree, happily serving customers. Uma, a 30-35 year old Indian woman, medium brown skin, oval face, long black hair worn loose, sky blue saree, smiling proudly. Multiple customers shopping. Bright lighting, success mood.",
+    "dialogue": {
+      "text_on_screen": "Sale குறையுதா? Customers வரலையா?\nKows AI Labs – உங்க business-ஐ smart selling machine ஆ மாற்றும் 🚀\n👉 இப்பவே contact பண்ணுங்க!"
+    }
+  }
+]
